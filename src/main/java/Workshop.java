@@ -23,15 +23,16 @@ public class Workshop {
     }
 
    // Método que retorna la tabla de multiplicar de un número
-public int[] tablaMultiplicar(int numero, int limite) {
-    if (limite <= 0) return new int[0];
+    //public int[] tablaMultiplicar(int numero, int limite) {
+    //if (limite <= 0) return new int[0];
     
-    int[] resultado = new int[limite];
-    for (int i = 0; i < limite; i++) {
-        resultado[i] = numero * (i + 1);
+    //int[] resultado = new int[limite];
+    //for (int i = 0; i < limite; i++) {
+    //    resultado[i] = numero * (i + 1);
     }
     
-    return resultado;
+    //return resultado;
+    return 0;
 }
     }
 
