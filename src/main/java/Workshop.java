@@ -2,9 +2,7 @@ import java.util.List;
 
 public class Workshop {
     public static void main(String[] args) {
-
-    }
-
+        
     // Método que suma dos números enteros
     public int sumarDosNumeros(int a, int b) {
         // TODO: Implementar el método para retornar la suma de dos números enteros.
