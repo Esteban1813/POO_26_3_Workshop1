@@ -439,10 +439,10 @@ public String pptls2(String game[]) {
     return "";
 }
 
-public double areaCirculo(double radio) {
+//public double areaCirculo(double radio) {
     return 0.0;
 }
 
-public String zoodiac(int day, int month) {
+//public String zoodiac(int day, int month) {
     return "";
 }
