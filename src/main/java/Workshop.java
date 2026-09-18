@@ -13,7 +13,6 @@ public class Workshop {
 	//return 0;
     }
 
-
     // Método que encuentra el mayor de tres números enteros
     public int mayorDeTresNumeros(int a, int b, int c) {
         // TODO: Implementar el método para retornar el mayor de los tres números enteros.
@@ -23,8 +22,12 @@ public class Workshop {
       return c;
     }
 
-   // Método que retorna la tabla de multiplicar de un número
-    return 0;
+    // Método que retorna la tabla de multiplicar de un número
+    public int[] tablaMultiplicar(int numero, int limite) {
+        // TODO: Implementar el método para retornar la tabla de multiplicar del número dado.
+        // Ejemplo: Si numero = 2 y limite = 5, el resultado debería ser [2, 4, 6, 8, 10].
+        return new int[0];
+    }
 
     // Método que calcula el factorial de un número entero
     public int factorial(int n) {
@@ -252,4 +255,3 @@ Rock crushes Scissors
 
 
 }
-
