@@ -235,35 +235,38 @@ public double promedioElementos(int[] arreglo) {
     }
 
 // Método que combina dos arreglos en uno solo
-public int[] combinarArreglos(int[] arreglo1, int[] arreglo2) {
-    // TODO: Implementar el método para combinar dos arreglos en uno solo.
-    return 0;
-}
-
-
-// Método que rota un arreglo n posiciones
-public int[] rotarArreglo(int[] arreglo, int posiciones) {
-    // TODO: Implementar el método para rotar un arreglo n posiciones.
-    return 0;
-}
-
-// Método que cuenta los caracteres en una cadena
-public int contarCaracteres(String cadena) {
-    int contador = 0;
-
-    for (int i = 0; i < cadena.length(); i++) {
-        contador++;
+    public int[] combinarArreglos(int[] arreglo1, int[] arreglo2) {
+        // TODO: Implementar el método para combinar dos arreglos en uno solo.
+        // Ejemplo: Si arreglo1 = [1, 2, 3, 4, 5] y arreglo2 = [6, 7, 8], el resultado debería ser [1, 2, 3, 4, 5, 6, 7, 8].
+        return new int[0];
     }
 
-    return contador;
-}
+    // Método que rota un arreglo n posiciones
+    public int[] rotarArreglo(int[] arreglo, int posiciones) {
+        // TODO: Implementar el método para rotar un arreglo n posiciones.
+        // Ejemplo: Si arreglo = [1, 2, 3, 4, 5] y posiciones = 2, el resultado debería ser [3, 4, 5, 1, 2].
+        return new int[0];
+    }
 
+    // Método que cuenta los caracteres en una cadena
+    public int contarCaracteres(String cadena) {
+        // TODO: Implementar el método para contar el número de caracteres en una cadena.
+        // Ejemplo: Si cadena = "Hello", el resultado debería ser 5.
+        return 0;
+    }
 
-// Método que invierte una cadena
-public String invertirCadena(String cadena) {
-    // TODO: Implementar el método para invertir una cadena.
-    return 0;
-}
+    // Método que invierte una cadena
+    public String invertirCadena(String cadena) {
+        // TODO: Implementar el método para invertir una cadena.
+        // Ejemplo: Si cadena = "Hello", el resultado debería ser "olleH".
+        return "";
+
+   // Método que verifica si una cadena es un palíndromo
+    public boolean esPalindromo(String cadena) {
+        // TODO: Implementar el método para verificar si una cadena es un palíndromo.
+        // Ejemplo: Si cadena = "madam", el resultado debería ser true.
+        return false;
+    }
 
 
     // Método que cuenta el número de palabras en una cadena
