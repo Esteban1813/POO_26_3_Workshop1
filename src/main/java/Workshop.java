@@ -402,47 +402,47 @@ public String convertirABinario(int numero) {
         return Integer.toHexString(numero).toUpperCase();
     }
 
-          // - Piedra vence a Tijera y Lagarto
-        // - Papel vence a Piedra y Spock
-        // - Tijera vence a Papel y Lagarto
-        // - Lagarto vence a Spock y Papel
-        // - Spock vence a Tijera y Piedra
+public String pptls(String eleccionUsuario, String eleccionComputadora) {
 
+    // - Piedra vence a Tijera y Lagarto
+    // - Papel vence a Piedra y Spock
+    // - Tijera vence a Papel y Lagarto
+    // - Lagarto vence a Spock y Papel
+    // - Spock vence a Tijera y Piedra
 
-        // El método debe retornar un mensaje indicando el resultado del juego.
-        // Ejemplo: Si la eleccionUsuario es "Piedra", el resultado podría ser "Ganaste" o "Perdiste" dependiendo de la elección de la computadora.
-        return "";
-    }
+    // Aquí va la lógica del juego
 
-    public String pptls2(String game[]) {
-        //Retornar player ganador o empate
-            /*
-            Rock = R
-            Paper = P
-            Scissors = S
-            Lizard = L
-            Spock = V
+    return "";
+}
+
+public String pptls2(String game[]) {
+    // Retornar player ganador o empate
+    /*
+        Rock = R
+        Paper = P
+        Scissors = S
+        Lizard = L
+        Spock = V
+
         Scissors cuts Paper
-Paper covers Rock
-Rock crushes Lizard
-Lizard poisons Spock
-Spock smashes Scissors
-Scissors decapitates Lizard
-Lizard eats Paper
-Paper disproves Spock
-Spock vaporizes Rock
-Rock crushes Scissors
-         */
-        return "";
-    }
+        Paper covers Rock
+        Rock crushes Lizard
+        Lizard poisons Spock
+        Spock smashes Scissors
+        Scissors decapitates Lizard
+        Lizard eats Paper
+        Paper disproves Spock
+        Spock vaporizes Rock
+        Rock crushes Scissors
+    */
 
-    public double areaCirculo(double radio) {
-        return 0.0;
-    }
+    return "";
+}
 
-    public String zoodiac(int day, int month) {
-        return "";
-    }
+public double areaCirculo(double radio) {
+    return 0.0;
+}
 
-
+public String zoodiac(int day, int month) {
+    return "";
 }
