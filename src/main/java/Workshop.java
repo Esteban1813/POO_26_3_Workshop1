@@ -19,7 +19,8 @@ public class Workshop {
         // Ejemplo: Si a = 3, b = 7, y c = 5, el resultado debería ser 7.
       if (a>= b && a >=c) return a;
     if (b>=c) return b;  
-      return c;
+    return c;
+
     }
 
    // Método que retorna la tabla de multiplicar de un número
@@ -260,6 +261,7 @@ public double promedioElementos(int[] arreglo) {
         // TODO: Implementar el método para invertir una cadena.
         // Ejemplo: Si cadena = "Hello", el resultado debería ser "olleH".
         return "";
+     }
 
    // Método que verifica si una cadena es un palíndromo
     public boolean esPalindromo(String cadena) {
