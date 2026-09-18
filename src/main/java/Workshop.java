@@ -2,14 +2,17 @@ import java.util.List;
 
 public class Workshop {
     public static void main(String[] args) {
-        
+
+    }
+
     // Método que suma dos números enteros
     public int sumarDosNumeros(int a, int b) {
         // TODO: Implementar el método para retornar la suma de dos números enteros.
         // Ejemplo: Si a = 3 y b = 5, el resultado debería ser 8.
         return a+b;
-
+	//return 0;
     }
+
 
     // Método que encuentra el mayor de tres números enteros
     public int mayorDeTresNumeros(int a, int b, int c) {
@@ -22,8 +25,6 @@ public class Workshop {
 
    // Método que retorna la tabla de multiplicar de un número
     return 0;
-}
-    }
 
     // Método que calcula el factorial de un número entero
     public int factorial(int n) {
