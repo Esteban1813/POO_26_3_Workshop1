@@ -98,11 +98,15 @@ public boolean esPrimo(int numero) {
 }
 
     // Método que suma todos los elementos de un arreglo
-    public int sumaElementos(int[] arreglo) {
-        // TODO: Implementar el método para sumar todos los elementos de un arreglo.
-        // Ejemplo: Si arreglo = [1, 2, 3, 4, 5], el resultado debería ser 15.
-        return 0;
+public int sumaElementos(int[] arreglo) {
+    int suma = 0;
+
+    for (int numero : arreglo) {
+        suma = numero;
     }
+
+    return suma;
+}
 
     // Método que calcula el promedio de los elementos de un arreglo
     public double promedioElementos(int[] arreglo) {
