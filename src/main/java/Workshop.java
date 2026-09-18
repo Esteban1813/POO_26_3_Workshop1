@@ -417,7 +417,7 @@ public String pptls(String eleccionUsuario, String eleccionComputadora) {
 
 public String pptls2(String game[]) {
     // Retornar player ganador o empate
-    /*
+    //
         Rock = R
         Paper = P
         Scissors = S
