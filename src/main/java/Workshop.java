@@ -307,14 +307,14 @@ public boolean esPalindromo(String cadena) {
 }
 
 
-    // Método que cuenta el número de palabras en una cadena
-    public int contarPalabras(String cadena) {
-        // TODO: Implementar el método para contar el número de palabras en una cadena.
-        // Ejemplo: Si cadena = "Este es un test", el resultado debería ser 4.
+// Método que cuenta el número de palabras de una cadena
+public int contarPalabras(String cadena) {
+    if (cadena == null || cadena.trim().isEmpty()) {
         return 0;
     }
 
-    // Método que convierte una cadena a mayúsculas
+    return cadena.trim().split("\\s+").length;
+}    // Método que convierte una cadena a mayúsculas
     public String convertirAMayusculas(String cadena) {
         // TODO: Implementar el método para convertir una cadena a mayúsculas.
         // Ejemplo: Si cadena = "hello", el resultado debería ser "HELLO".
