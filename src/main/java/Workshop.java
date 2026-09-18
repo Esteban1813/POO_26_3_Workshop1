@@ -350,12 +350,14 @@ public int buscarSubcadena(String cadena, String subcadena) {
     return cadena.indexOf(subcadena);
 }
 
-    // Método que valida un correo electrónico
-    public boolean validarCorreoElectronico(String correo) {
-        // TODO: Implementar el método para validar un correo electrónico.
-        // Ejemplo: Si correo = "test@example.com", el resultado debería ser true.
-        return false;
-    }
+
+// Método que valida un correo electrónico
+public boolean validarCorreoElectronico(String correo) {
+    // TODO: Implementar el método para validar un correo electrónico.
+    // Ejemplo: Si correo = "test@example.com", el resultado debería ser true.
+    return correo != null && correo.contains("@") && correo.contains(".");
+}
+
 
     // Método que calcula el promedio de una lista de números
 
