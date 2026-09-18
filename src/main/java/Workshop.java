@@ -402,47 +402,33 @@ public String convertirABinario(int numero) {
         return Integer.toHexString(numero).toUpperCase();
     }
 
-public String pptls(String eleccionUsuario, String eleccionComputadora) {
-
-    // - Piedra vence a Tijera y Lagarto
-    // - Papel vence a Piedra y Spock
-    // - Tijera vence a Papel y Lagarto
-    // - Lagarto vence a Spock y Papel
-    // - Spock vence a Tijera y Piedra
-
-    // Aquí va la lógica del juego
-
-    return "";
-}
-
 public String pptls2(String game[]) {
     // Retornar player ganador o empate
-    //
-        Rock = R
-        Paper = P
-        Scissors = S
-        Lizard = L
-        Spock = V
 
-        Scissors cuts Paper
-        Paper covers Rock
-        Rock crushes Lizard
-        Lizard poisons Spock
-        Spock smashes Scissors
-        Scissors decapitates Lizard
-        Lizard eats Paper
-        Paper disproves Spock
-        Spock vaporizes Rock
-        Rock crushes Scissors
-    */
+    // Rock = R
+    // Paper = P
+    // Scissors = S
+    // Lizard = L
+    // Spock = V
+
+    // Scissors cuts Paper
+    // Paper covers Rock
+    // Rock crushes Lizard
+    // Lizard poisons Spock
+    // Spock smashes Scissors
+    // Scissors decapitates Lizard
+    // Lizard eats Paper
+    // Paper disproves Spock
+    // Spock vaporizes Rock
+    // Rock crushes Scissors
 
     return "";
 }
 
 //public double areaCirculo(double radio) {
-    return 0.0;
-}
+//    return 0.0;
+//}
 
 //public String zoodiac(int day, int month) {
-    return "";
-}
+//    return "";
+//}
