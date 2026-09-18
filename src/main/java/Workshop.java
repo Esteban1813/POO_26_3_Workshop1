@@ -234,15 +234,72 @@ public double promedioElementos(int[] arreglo) {
         return resultado;
     }
 
- // Método que combina dos arreglos en uno solo public int[] combinarArreglos(int[] arreglo1, int[] arreglo2) { int[] resultado = new int[arreglo1.length + arreglo2.length]; for (int i = 0; i < arreglo1.length; i++) { resultado[i] = arreglo1[i]; } for (int i = 0; i < arreglo2.length; i++) { resultado[arreglo1.length + i] = arreglo2[i]; } return resultado; } // Método que rota un arreglo n posiciones public int[] rotarArreglo(int[] arreglo, int posiciones) { int[] resultado = new int[arreglo.length]; for (int i = 0; i < arreglo.length; i++) { int nuevaPosicion = (i - posiciones) % arreglo.length; if (nuevaPosicion < 0) { nuevaPosicion += arreglo.length; } resultado[nuevaPosicion] = arreglo[i]; } return resultado; } // Método que cuenta los caracteres en una cadena public int contarCaracteres(String cadena) { int cantidad = 0; for (int i = 0; i < cadena.length(); i++) { cantidad++; } return cantidad; } // Método que invierte una cadena public String invertirCadena(String cadena) { String resultado = ""; for (int i = cadena.length() - 1; i >= 0; i--) { resultado += cadena.charAt(i); } return resultado; }
+      // Método que combina dos arreglos en uno solo
+    public int[] combinarArreglos(int[] arreglo1, int[] arreglo2) 
+        // TODO: Implementar el método para combinar dos arreglos en uno solo.
+        // Ejemplo: Si arreglo1 = [1, 2, 3, 4, 5] y arreglo2 = [6, 7, 8], el resultado debería ser [1, 2, 3, 4, 5, 6, 7, 8].
+
+        int[] resultado = new int[arreglo1.length + arreglo2.length];
+
+        for (int i = 0; i < arreglo1.length; i++) {
+            resultado[i] = arreglo1[i];
+        }
+
+        for (int i = 0; i < arreglo2.length; i++) {
+            resultado[arreglo1.length + i] = arreglo2[i];
+        }
+
+        return resultado;
+    }
+
+   
+
+
+          // Método que rota un arreglo n posiciones
+public int[] rotarArreglo(int[] arreglo, int posiciones) {
+    // TODO: Implementar el método para rotar un arreglo n posiciones.
+    // Ejemplo: Si arreglo = [1, 2, 3, 4, 5] y posiciones = 2,
+    // el resultado debería ser [3, 4, 5, 1, 2].
+
+    int[] resultado = new int[arreglo.length];
+
+    for (int i = 0; i < arreglo.length; i++) {
+        int nuevaPosicion = (i + posiciones) % arreglo.length;
+
+        if (nuevaPosicion < 0) {
+            nuevaPosicion += arreglo.length;
+        }
+
+        resultado[nuevaPosicion] = arreglo[i];
+    }
+
+    return resultado;
+}
+
+   
+
+           // Método que cuenta los caracteres en una cadena
+    public int contarCaracteres(String cadena) {
+        // TODO: Implementar el método para contar el número de caracteres en una cadena.
+        // Ejemplo: Si cadena = "Hello", el resultado debería ser 5.
+
+        return cadena.length();
+    }
+
 
     // Método que invierte una cadena
     public String invertirCadena(String cadena) {
         // TODO: Implementar el método para invertir una cadena.
         // Ejemplo: Si cadena = "Hello", el resultado debería ser "olleH".
-        return "";
-    }
 
+        String resultado = "";
+
+        for (int i = cadena.length() - 1; i >= 0; i--) {
+            resultado += cadena.charAt(i);
+        }
+
+        return resultado;
+    }
     // Método que verifica si una cadena es un palíndromo
     public boolean esPalindromo(String cadena) {
         // TODO: Implementar el método para verificar si una cadena es un palíndromo.
