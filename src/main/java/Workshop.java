@@ -355,8 +355,9 @@ public int buscarSubcadena(String cadena, String subcadena) {
 public boolean validarCorreoElectronico(String correo) {
     // TODO: Implementar el método para validar un correo electrónico.
     // Ejemplo: Si correo = "test@example.com", el resultado debería ser true.
-    return correo != null && correo.contains("@") && correo.contains(".");
+    return correo != null && correo.matches("^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$");
 }
+
 
 
     // Método que calcula el promedio de una lista de números
