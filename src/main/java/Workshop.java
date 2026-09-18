@@ -234,69 +234,7 @@ public double promedioElementos(int[] arreglo) {
         return resultado;
     }
 
-  // Método que combina dos arreglos en uno solo
-public int[] combinarArreglos(int[] arreglo1, int[] arreglo2) {
-    // TODO: Implementar el método para combinar dos arreglos en uno solo.
-
-    int[] resultado = new int[arreglo1.length + arreglo2.length];
-
-    for (int i = 0; i < arreglo1.length; i++) {
-        resultado[i] = arreglo1[i];
-    }
-
-    for (int i = 0; i < arreglo2.length; i++) {
-        resultado[arreglo1.length + i] = arreglo2[i];
-    }
-
-    return resultado;
-}
-
-
-// Método que rota un arreglo n posiciones
-public int[] rotarArreglo(int[] arreglo, int posiciones) {
-    // Ejemplo: [1, 2, 3, 4, 5], posiciones = 2
-    // Resultado: [3, 4, 5, 1, 2]
-
-    int[] resultado = new int[arreglo.length];
-
-    for (int i = 0; i < arreglo.length; i++) {
-        int nuevaPosicion = (i - posiciones) % arreglo.length;
-
-        if (nuevaPosicion < 0) {
-            nuevaPosicion += arreglo.length;
-        }
-
-        resultado[nuevaPosicion] = arreglo[i];
-    }
-
-    return resultado;
-}
-
-      ```java
-// Método que cuenta los caracteres en una cadena
-public int contarCaracteres(String cadena) {
-    int cantidad = 0;
-
-    for (int i = 0; i < cadena.length(); i++) {
-        cantidad++;
-    }
-
-    return cantidad;
-}
-
-
-// Método que invierte una cadena
-public String invertirCadena(String cadena) {
-    String resultado = "";
-
-    for (int i = cadena.length() - 1; i >= 0; i--) {
-        resultado += cadena.charAt(i);
-    }
-
-    return resultado;
-}
-```
-
+ // Método que combina dos arreglos en uno solo public int[] combinarArreglos(int[] arreglo1, int[] arreglo2) { int[] resultado = new int[arreglo1.length + arreglo2.length]; for (int i = 0; i < arreglo1.length; i++) { resultado[i] = arreglo1[i]; } for (int i = 0; i < arreglo2.length; i++) { resultado[arreglo1.length + i] = arreglo2[i]; } return resultado; } // Método que rota un arreglo n posiciones public int[] rotarArreglo(int[] arreglo, int posiciones) { int[] resultado = new int[arreglo.length]; for (int i = 0; i < arreglo.length; i++) { int nuevaPosicion = (i - posiciones) % arreglo.length; if (nuevaPosicion < 0) { nuevaPosicion += arreglo.length; } resultado[nuevaPosicion] = arreglo[i]; } return resultado; } // Método que cuenta los caracteres en una cadena public int contarCaracteres(String cadena) { int cantidad = 0; for (int i = 0; i < cadena.length(); i++) { cantidad++; } return cantidad; } // Método que invierte una cadena public String invertirCadena(String cadena) { String resultado = ""; for (int i = cadena.length() - 1; i >= 0; i--) { resultado += cadena.charAt(i); } return resultado; }
 
     // Método que invierte una cadena
     public String invertirCadena(String cadena) {
