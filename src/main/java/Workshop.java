@@ -272,11 +272,27 @@ public int[] rotarArreglo(int[] arreglo, int posiciones) {
     return resultado;
 }
 
-    // Método que cuenta los caracteres en una cadena
+          // Método que cuenta los caracteres en una cadena
     public int contarCaracteres(String cadena) {
         // TODO: Implementar el método para contar el número de caracteres en una cadena.
         // Ejemplo: Si cadena = "Hello", el resultado debería ser 5.
-        return 0;
+
+        return cadena.length();
+    }
+
+
+    // Método que invierte una cadena
+    public String invertirCadena(String cadena) {
+        // TODO: Implementar el método para invertir una cadena.
+        // Ejemplo: Si cadena = "Hello", el resultado debería ser "olleH".
+
+        String resultado = "";
+
+        for (int i = cadena.length() - 1; i >= 0; i--) {
+            resultado += cadena.charAt(i);
+        }
+
+        return resultado;
     }
 
     // Método que invierte una cadena
