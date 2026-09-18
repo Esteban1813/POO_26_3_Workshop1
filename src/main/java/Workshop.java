@@ -254,11 +254,25 @@ public double promedioElementos(int[] arreglo) {
     }
 
     // Método que rota un arreglo n posiciones
-    public int[] rotarArreglo(int[] arreglo, int posiciones) {
-        // TODO: Implementar el método para rotar un arreglo n posiciones.
-        // Ejemplo: Si arreglo = [1, 2, 3, 4, 5] y posiciones = 2, el resultado debería ser [3, 4, 5, 1, 2].
-        return new int[0];
+public int[] rotarArreglo(int[] arreglo, int posiciones) {
+    // TODO: Implementar el método para rotar un arreglo n posiciones.
+    // Ejemplo: Si arreglo = [1, 2, 3, 4, 5] y posiciones = 2,
+    // el resultado debería ser [3, 4, 5, 1, 2].
+
+    int[] resultado = new int[arreglo.length];
+
+    for (int i = 0; i < arreglo.length; i++) {
+        int nuevaPosicion = (i + posiciones) % arreglo.length;
+
+        if (nuevaPosicion < 0) {
+            nuevaPosicion += arreglo.length;
+        }
+
+        resultado[nuevaPosicion] = arreglo[i];
     }
+
+    return resultado;
+}
 
     // Método que cuenta los caracteres en una cadena
     public int contarCaracteres(String cadena) {
