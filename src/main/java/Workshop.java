@@ -97,12 +97,12 @@ public boolean esPrimo(int numero) {
     return resultado;
 }
 
-    // Método que suma todos los elementos de un arreglo
+// Método que suma todos los elementos de un arreglo
 public int sumaElementos(int[] arreglo) {
     int suma = 0;
 
     for (int numero : arreglo) {
-        suma = numero;
+        suma = suma + numero;
     }
 
     return suma;
