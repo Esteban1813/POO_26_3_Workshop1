@@ -237,28 +237,32 @@ public double promedioElementos(int[] arreglo) {
 // Método que combina dos arreglos en uno solo
 public int[] combinarArreglos(int[] arreglo1, int[] arreglo2) {
     // TODO: Implementar el método para combinar dos arreglos en uno solo.
-    return null;
+    return 0;
 }
 
 
 // Método que rota un arreglo n posiciones
 public int[] rotarArreglo(int[] arreglo, int posiciones) {
     // TODO: Implementar el método para rotar un arreglo n posiciones.
-    return null;
+    return 0;
 }
-
 
 // Método que cuenta los caracteres en una cadena
 public int contarCaracteres(String cadena) {
-    // TODO: Implementar el método para contar el número de caracteres en una cadena.
-    return 0;
+    int contador = 0;
+
+    for (int i = 0; i < cadena.length(); i++) {
+        contador++;
+    }
+
+    return contador;
 }
 
 
 // Método que invierte una cadena
 public String invertirCadena(String cadena) {
     // TODO: Implementar el método para invertir una cadena.
-    return null;
+    return 0;
 }
 
 
